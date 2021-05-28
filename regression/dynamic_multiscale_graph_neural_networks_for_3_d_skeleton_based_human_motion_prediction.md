@@ -1,0 +1,1 @@
+# Dynamic Multiscale Graph Neural Networks for 3D Skeleton-Based Human Motion Prediction
