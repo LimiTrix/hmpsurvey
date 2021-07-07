@@ -33,6 +33,7 @@ List of all the papers that I will explain throughout the survey. Work in Progre
 ### Survey Papers
 | Name | Journal | Year | Description  |
 | :-- | :-: | :-: | :- | 
+| [Deep Learning in Next-Frame Prediction: A Benchmark Review](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9063513&tag=1) | IEEE Access 2020 | Benchmark on video prediction |
 | [A Review on Deep Learning Techniques for Video Prediction](https://arxiv.org/pdf/2004.05214.pdf) | TPAMI | 2020 | Survey on <ins>video prediction in general</ins> |
 | [A survey on motion prediction and risk assessment for intelligent vehicles](https://robomechjournal.springeropen.com/track/pdf/10.1186/s40648-014-0001-z.pdf) | Springer | 2014 | Survey on <ins>autonomous vehicle</ins> |
 | [Human Motion Trajectory Prediction: A Survey](https://arxiv.org/pdf/1905.06113.pdf) | IJRR | 2019 | Survey on <ins>human trajectory prediction</ins> |
@@ -40,10 +41,12 @@ List of all the papers that I will explain throughout the survey. Work in Progre
 <br>
 
 ### Regression Prediction 
-| Code | Docs | Name | Conference | Description | 
-| :-: | :-: | :-- | :- | :-- |
-| [:o:](https://gist.github.com/Seleucia/3a4f3fadc6a8dc215b4b6fd3d6c0b596)  | [:x:](regression/recurrent_network_models_for_human_dynamics.md) | [Recurrent Network Models for Human Dynamics](https://arxiv.org/pdf/1508.00271.pdf) | ICCV 2015 | Encoder > Recurrent > Decoder
+| Code | Docs | Name | Conference  | 
+| :-: | :-: | :-- | :- 
+| :x:  | [:o:](regression/recurrent_network_models_for_human_dynamics.md) | __[[ERD] Recurrent Network Models for Human Dynamics](https://arxiv.org/pdf/1508.00271.pdf)__ | ICCV 2015 | Encoder > Recurrent > Decoder
 | [:o:](https://github.com/una-dinosauria/human-motion-prediction) | [:x:](regression/deep_representation_learning_for_human_motion_prediction_and_classification.md)  | [Deep representation learning for human motion prediction and classification](https://arxiv.org/pdf/1702.07486.pdf) | CVPR 2016 | 
+| [:o:](https://github.com/asheshjain399/RNNexp/tree/srnn/structural_rnn) | [:o:](regression/structural_rnn_deep_learning_on_spatio_temporal_graphs.md) | [__Structural-RNN: Deep Learning on Spatio-Temporal Graphs__](https://arxiv.org/pdf/1511.05298.pdf) | CVPR 2016 |
+| [:o:]() | [:o:](regression/on_human_motion_prediction_using_recurrent_neural_networks) | [__On human motion prediction using recurrent neural networks__](https://arxiv.org/pdf/1705.02445.pdf) | CVPR 2017 | 
 | [:o:](https://github.com/papagina/Auto_Conditioned_RNN_motion) | [:x:](regression/auto_conditioned_recurrent_networks_for_extended_complex_human_motion_synthesis.md) | [AUTO-CONDITIONED RECURRENT NETWORKS FOR EXTENDED COMPLEX HUMAN MOTION SYNTHESIS](https://openreview.net/pdf?id=r11Q2SlRW) | ICLR 2018 | 
 | [:o:](https://github.com/limaosen0/DMGNN) | [:x:](regression/dynamic_multiscale_graph_neural_networks_for_3_d_skeleton_based_human_motion_prediction.md) | [Dynamic Multiscale Graph Neural Networks for 3D Skeleton-Based Human Motion Prediction](https://arxiv.org/pdf/2003.08802.pdf) | CVPR 2020 | GCN based motion prediction |
 
