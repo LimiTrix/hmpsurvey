@@ -1,7 +1,7 @@
-# Dynamic Multiscale Graph Neural Networks for 3D Skeleton-Based Human Motion Prediction
-> ### Maosen Li, Siheng Chen, Yangheng Zhao, Ya Zhang, Yanfeng Wang, Qi Tian
+# Structured Prediction Helps 3D Human Motion Modelling
+> ### Emre Aksan, Manuel Kaufmann, Otmar Hilliges
 
-![models](/assets/dmgnn_models.png)
+![Network](/assets/spl_models.png)
 
 
 
@@ -90,3 +90,4 @@ Trained jointly in an _**action-dataset-agnostic**_ manner
 | ![Metric2](/assets/spl_metric_amass.png) | 
 | :--: | 
 | __Amass metric result__ |
+

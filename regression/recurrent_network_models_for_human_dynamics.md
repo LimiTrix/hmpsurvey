@@ -42,16 +42,17 @@ with learning temporal dynamics).
 - For video, conditioning on a person bounding box sequence, we predict the body joint locations in the current frame or, for the task of body pose forecasting, at a specific point in the future.
 - In the mocap case, the input and output domains coincide (3D body joint angles).
 - In the video case, the input and output domains differ (raw video pixels versus body joint locations).
+- __It has been known in this paper that the stochasticity of human motion makes long term evaluation difficult__
 
 
 
-### Dataset 
+## Dataset 
 
 - **Human3.6M**: Subject **[5]** for testing, train with the rest.
 
 
 
-### Metric result
+## Metric result
 
 - Comparison
     - Multilayer LSTM models (No previous works on motion prediction).
