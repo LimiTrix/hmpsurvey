@@ -38,8 +38,8 @@ with learning temporal dynamics).
 ## Notes
 
 - We consider two data domains: motion capture (“mocap”) and video sequences. 
-- For mocap, conditioning on a mocap sequence so far, we learn a distribution over mocap feature vectors in the subsequent frame. At test time, by supplying mocap samples as input back to the model, long sequences are synthesized. 
-- For video, conditioning on a person bounding box sequence, we predict the body joint locations in the current frame or, for the task of body pose forecasting, at a specific point in the future.
+- For mocap, conditioning on a mocap sequence so far, we learn a distribution over mocap feature vectors in the subsequent frame. At test time, by supplying mocap samples as input back to the model, long sequences are synthesized. 
+- For video, conditioning on a person bounding box sequence, we predict the body joint locations in the current frame or, for the task of body pose forecasting, at a specific point in the future.
 - In the mocap case, the input and output domains coincide (3D body joint angles).
 - In the video case, the input and output domains differ (raw video pixels versus body joint locations).
 - __It has been known in this paper that the stochasticity of human motion makes long term evaluation difficult__

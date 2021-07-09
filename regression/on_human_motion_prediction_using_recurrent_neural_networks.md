@@ -1,4 +1,4 @@
-# Recurrent Network Models for Human Dynamics
+# On Human Motion Prediction using Recurrent Neural Network
 > ### Julieta Martinez, Michael J. Black, Javier Romero
 ![Network](/assets/gru_martinez_network.png)
 
@@ -73,9 +73,3 @@ quality of prediction in the first frame prediction.
 
 - **Human3.6M**: Subject **[5]** for testing, train with the rest.
 
-
-
-### Metric result
-
-- Comparison
-    - 

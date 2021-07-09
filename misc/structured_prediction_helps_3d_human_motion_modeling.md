@@ -5,11 +5,11 @@
 
 
 
-### Architecture
+<!-- ### Architecture
 
 | Network | Input | Output |
 | :---: | :---: | :---: |
-    
+     -->
 
 
 ## Challenge
