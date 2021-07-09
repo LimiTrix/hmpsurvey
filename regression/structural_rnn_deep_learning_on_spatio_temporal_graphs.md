@@ -33,7 +33,9 @@ Their network is designed only to solve a single specific problem.
 ## Solution
 
 - Proposed a combination of Spatio-temporal network and recurrent networks:
-    - 
+    - Technical side is difficult to understand, but they are separating the relation on each object and connecting them 
+    respectively.
+    - Looking at the paper, unless I read it completely I don't think I will understand the network. At a glance, it is similar to a GCN where each node is a RNN.
 
 
 ### Dataset 
@@ -41,8 +43,8 @@ Their network is designed only to solve a single specific problem.
 - **Human3.6M**: Subject **[5]** for testing, train with the rest.
 
 
-
+<!-- 
 ### Metric result
 
 - Comparison
-    - 
+    -  -->
