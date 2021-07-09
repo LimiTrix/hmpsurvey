@@ -35,12 +35,14 @@ List of all the papers that I will explain throughout the survey. Work in Progre
 | :-: | :-: | :-- | :- |
 | :x:  | [:o:](regression/recurrent_network_models_for_human_dynamics.md) | __[[ERD] Recurrent Network Models for Human Dynamics](https://arxiv.org/pdf/1508.00271.pdf)__ | ICCV 2015 | Encoder > Recurrent > Decoder
 | [:o:](https://github.com/asheshjain399/RNNexp/tree/srnn/structural_rnn) | [:o:](regression/structural_rnn_deep_learning_on_spatio_temporal_graphs.md) | [__[S-RNN] Structural-RNN: Deep Learning on Spatio-Temporal Graphs__](https://arxiv.org/pdf/1511.05298.pdf) | CVPR 2016 |
-| [:o:]() | [:o:](regression/on_human_motion_prediction_using_recurrent_neural_networks) | [__[Sec2sec] On human motion prediction using recurrent neural networks__](https://arxiv.org/pdf/1705.02445.pdf) | CVPR 2017 | 
-| [:o:](https://github.com/papagina/Auto_Conditioned_RNN_motion) | [:o:](regression/auto_conditioned_recurrent_networks_for_extended_complex_human_motion_synthesis.md) | [__[AcRNN] Auto-Conditioned Recurrent Networks for Extended Complex Human motion Synthesis__](https://openreview.net/pdf?id=r11Q2SlRW) | ICLR 2018 | 
+| [:o:](https://github.com/una-dinosauria/human-motion-prediction) | [:o:](regression/on_human_motion_prediction_using_recurrent_neural_networks.md) | [__[Sec2sec] On human motion prediction using recurrent neural networks__](https://arxiv.org/pdf/1705.02445.pdf) | CVPR 2017 | 
 | [:o:](https://github.com/ebarsoum/hpgan) | [:o:](/diverse/hp_gan_probabilistic_3d_human_motion_prediction_via_gan.md) | [__HP-GAN: Probabilistic 3D human motion prediction via GAN__](https://arxiv.org/pdf/1711.09561.pdf) | CVPR 2017 | 
+| [:o:](https://github.com/papagina/Auto_Conditioned_RNN_motion) | [:o:](regression/auto_conditioned_recurrent_networks_for_extended_complex_human_motion_synthesis.md) | [__[AcRNN] Auto-Conditioned Recurrent Networks for Extended Complex Human motion Synthesis__](https://openreview.net/pdf?id=r11Q2SlRW) | ICLR 2018 | 
 | [:x:](https://github.com/xcyan/eccv18_mtvae) | [:o:](diverse/mt_vae_learning_motion_transformations.md) | [_**MT-VAE: Learning Motion Transformations**_](https://arxiv.org/pdf/1808.04545.pdf) | ECCV 2018 
 | [:o:](https://github.com/akanazawa/human_dynamics) | [:o:](misc\predicting_3_d_human_dynamics_from_video.md) |[__[PHD] Predicting 3D Human Dynamics from Video__](https://arxiv.org/pdf/1908.04781.pdf#page=10&zoom=100,66,153) | ICCV 2019 | 3D body from image-sequence input. | 
-| :o: | [:o:](structured_prediction_helps_3d_human_motion_modeling.md) | [__Structured Prediction Helps 3D Human Motion Modelling__](https://arxiv.org/pdf/1910.09070.pdf) | ICCV 2019 | Introduced a layer that improves prediction result by chaining the prediction step. | 
+| :o: | [:o:](structured_prediction_helps_3d_human_motion_modeling.md) | [__[SPL] Structured Prediction Helps 3D Human Motion Modelling__](https://arxiv.org/pdf/1910.09070.pdf) | ICCV 2019 | Introduced a layer that improves prediction result by chaining the prediction step. | 
+| [:o:](https://github.com/limaosen0/DMGNN) | [:x:](regression/dynamic_multiscale_graph_neural_networks_for_3_d_skeleton_based_human_motion_prediction.md) | [__[DMGNN] Dynamic Multiscale Graph Neural Networks for 3D Skeleton-Based Human Motion Prediction__](https://arxiv.org/pdf/2003.08802.pdf) | CVPR 2020 | GCN based motion prediction |
+| [:o:](https://github.com/Khrylx/DLow) | [:x:](diverse/d_low_diversifying_latent_flows_for_diverse_human_motion_prediction.md) | [__DLow: Diversifying Latent Flows for Diverse Human Motion Prediction__](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540324.pdf) | ECCV 2020 
 
 <br><br>
 
@@ -64,7 +66,7 @@ List of all the papers that I will explain throughout the survey. Work in Progre
 | [:o:](https://github.com/asheshjain399/RNNexp/tree/srnn/structural_rnn) | [:o:](regression/structural_rnn_deep_learning_on_spatio_temporal_graphs.md) | [__[S-RNN] Structural-RNN: Deep Learning on Spatio-Temporal Graphs__](https://arxiv.org/pdf/1511.05298.pdf) | CVPR 2016 |
 | [:o:]() | [:o:](regression/on_human_motion_prediction_using_recurrent_neural_networks) | [__[Sec2sec] On human motion prediction using recurrent neural networks__](https://arxiv.org/pdf/1705.02445.pdf) | CVPR 2017 | 
 | [:o:](https://github.com/papagina/Auto_Conditioned_RNN_motion) | [:o:](regression/auto_conditioned_recurrent_networks_for_extended_complex_human_motion_synthesis.md) | [__[AcRNN] Auto-Conditioned Recurrent Networks for Extended Complex Human motion Synthesis__](https://openreview.net/pdf?id=r11Q2SlRW) | ICLR 2018 | 
-| [:o:](https://github.com/limaosen0/DMGNN) | [:x:](regression/dynamic_multiscale_graph_neural_networks_for_3_d_skeleton_based_human_motion_prediction.md) | [Dynamic Multiscale Graph Neural Networks for 3D Skeleton-Based Human Motion Prediction](https://arxiv.org/pdf/2003.08802.pdf) | CVPR 2020 | GCN based motion prediction |
+| [:o:](https://github.com/limaosen0/DMGNN) | [:x:](regression/dynamic_multiscale_graph_neural_networks_for_3_d_skeleton_based_human_motion_prediction.md) | [__[DMGNN] Dynamic Multiscale Graph Neural Networks for 3D Skeleton-Based Human Motion Prediction__](https://arxiv.org/pdf/2003.08802.pdf) | CVPR 2020 | GCN based motion prediction |
 
 <br>
 
@@ -72,7 +74,7 @@ List of all the papers that I will explain throughout the survey. Work in Progre
 | Code | Docs | Name | Conference Year | 
 | :-: | :-: | :-- | :-: | 
 | [:o:](https://github.com/ebarsoum/hpgan) | [:o:](/diverse/hp_gan_probabilistic_3d_human_motion_prediction_via_gan.md) | [__HP-GAN: Probabilistic 3D human motion prediction via GAN__](https://arxiv.org/pdf/1711.09561.pdf) | CVPR 2017 | 
-| [:o:](https://github.com/Khrylx/DLow) | [:x:](diverse/d_low_diversifying_latent_flows_for_diverse_human_motion_prediction.md) | [DLow: Diversifying Latent Flows for Diverse Human Motion Prediction](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540324.pdf) | ECCV 2020 
+| [:o:](https://github.com/Khrylx/DLow) | [:x:](diverse/d_low_diversifying_latent_flows_for_diverse_human_motion_prediction.md) | [__DLow: Diversifying Latent Flows for Diverse Human Motion Prediction__](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540324.pdf) | ECCV 2020 
 | [:x:](https://github.com/xcyan/eccv18_mtvae) | [:o:](diverse/mt_vae_learning_motion_transformations.md) | [_**MT-VAE: Learning Motion Transformations**_](https://arxiv.org/pdf/1808.04545.pdf) | ECCV 2018 
 
 <br>
