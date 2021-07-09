@@ -4,18 +4,6 @@
 
 
 
-### Architecture
-
-- __Left image__: Previous 
-    - Feeds the GT as input while training.
-    - Uses LSTM.
-- __Right image__: GRU_Martinez:
-    - No spatial encoding layer. 
-    - Uses GRU instead of LSTM.
-    - Feeds the prediction result instead of GT while training.
-
-
-
 ## Challenge
 
 - They claim that bringing spatio-temporal structures and rich sequence modeling capabilities together is of particular importance for many applications. 

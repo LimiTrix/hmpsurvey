@@ -9,7 +9,7 @@
 
 | Network | Input | Output |
 | :---: | :---: | :---: |
-    
+
 
 
 ## Challenge
